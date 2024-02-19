@@ -1,0 +1,12 @@
+body {
+  background-color: lightgreen;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+.container {
+  padding: 16px;
+}

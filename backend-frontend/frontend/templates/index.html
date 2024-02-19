@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <title>My Paste Bin - Main</title>
+
+  <link
+    rel="stylesheet"
+    href="{{ url_for('mybp.static', filename='mystyle.css') }}"
+  />
+
+  <body>
+    <h1>{{ count_pastes }} Pastes</h1>
+
+    <div id="pastes"></div>
+  </body>
+
+  <script src="{{ url_for('mybp.static', filename='myscript.js') }}"></script>
+</html>
